@@ -1,0 +1,9 @@
+struct Character{
+    int Character;
+  bool dead;
+  Character* next;
+  Character* previous;
+};
+
+Character * firstCharactert =NULL;
+Character * lastCharacter =NULL;
